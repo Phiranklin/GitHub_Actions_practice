@@ -1,0 +1,15 @@
+# 这是一个演示文件
+# 在终端中创建文件的方法：
+
+## 1. 使用 echo 命令
+echo "内容" > 文件名.txt
+
+## 2. 使用 PowerShell 的 New-Item
+New-Item -ItemType File -Name "文件名.txt"
+
+## 3. 使用 copy con 命令（Windows CMD）
+copy con 文件名.txt
+# 输入内容后按 Ctrl+Z 然后回车
+
+## 4. 使用 type nul > 文件名（创建空文件）
+type nul > 空文件.txt
